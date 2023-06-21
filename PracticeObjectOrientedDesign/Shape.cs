@@ -6,26 +6,29 @@ using System.Threading.Tasks;
 
 namespace PracticeObjectOrientedDesign
 {
-    class Shape
+    public class Shape: Circle, Triangle, Square
     {
-        public ShapeType Type { get; set; }
         public double Radius { get; set; }
         public double SideLength { get; set; }
         // ... 他の共通のプロパティやメソッド ...
 
-        public double CalculateArea()
+        public virtual void AllArea(double radius,double sidelenght)
         {
-            double area = 0;
-
-            if (Type == ShapeType.Circle)
-            {
-                area = Math.PI * Radius * Radius;
-            }
-            else if (Type == ShapeType.Square)
-            {
-                area = SideLength * SideLength;
-            }
-            return area;
+            Console.WriteLine("円の面積: " + CircleArea(Radius));
+            Console.WriteLine("正方形の面積: " + SquareArea(SideLength));
+            Console.WriteLine("三角形の面積:" + TriangleArea(SideLength));
         }
+    public double CircleArea(double radius)
+    {
+        return Math.PI * (Math.Pow(radius, 2));
     }
+    public double TriangleArea(double sidelenght)
+    {
+        return Math.Pow(sidelenght, 2) / 2;
+    }
+    public double SquareArea(double sidelenght)
+    {
+        return Math.Pow(sidelenght, 2);
+    }
+}
 }

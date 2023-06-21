@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.CSharp;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,33 +7,16 @@ using System.Threading.Tasks;
 
 namespace PracticeObjectOrientedDesign
 {
-    enum ShapeType
-    {
-        Circle,
-        Square
-    }
-
     internal class Program
     {
         static void Main(string[] args)
         {
-            Shape circle = new Shape
-            {
-                Type = ShapeType.Circle,
-                Radius = 5
-            };
+            Shape sharp = new Shape();
 
-            Shape square = new Shape
-            {
-                Type = ShapeType.Square,
-                SideLength = 10
-            };
+            sharp.Radius = 10;
+            sharp.SideLength = 5;
 
-            double circleArea = circle.CalculateArea();
-            double squareArea = square.CalculateArea();
-
-            Console.WriteLine("円の面積: " + circleArea);
-            Console.WriteLine("正方形の面積: " + squareArea);
+            sharp.AllArea(sharp.Radius, sharp.SideLength);
         }
     }
 }

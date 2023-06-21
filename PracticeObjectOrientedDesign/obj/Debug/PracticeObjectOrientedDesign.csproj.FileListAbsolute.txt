@@ -1,0 +1,8 @@
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\obj\Debug\PracticeObjectOrientedDesign.csproj.AssemblyReference.cache
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\obj\Debug\PracticeObjectOrientedDesign.csproj.SuggestedBindingRedirects.cache
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\obj\Debug\PracticeObjectOrientedDesign.csproj.CoreCompileInputs.cache
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\bin\Debug\PracticeObjectOrientedDesign.exe.config
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\bin\Debug\PracticeObjectOrientedDesign.exe
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\bin\Debug\PracticeObjectOrientedDesign.pdb
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\obj\Debug\PracticeObjectOrientedDesign.exe
+D:\Git_課題\Git06_14\PracticeObjectOrientedDesign\obj\Debug\PracticeObjectOrientedDesign.pdb
